@@ -3,7 +3,7 @@
  * $ npm install typo-js
  */
 
-var Typo = require("typo-js");
+var Typo = require("../../typo/typo.js");
 var dictionary = new Typo( "en_US" );
 
 var is_spelled_correctly = dictionary.check("mispelled");
